@@ -1,0 +1,23 @@
+{
+  "name": "x-translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "bin": {
+    "xt":"dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ], 
+  "scripts": {
+    "start": "ts-node-dev src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "commander": "^8.3.0"
+  }
+}
